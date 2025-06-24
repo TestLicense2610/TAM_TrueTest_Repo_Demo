@@ -1,0 +1,68 @@
+"Flow ID","Name","Description","Test Steps","Flow Priority","Status"
+"1","Navigate to Home and Access Login Register Page","Navigate to the home page, click on the login/register link, and verify that the home page is displayed correctly.","Step 1: Navigate to /
+Step 2: Click on link loginRegister -> Navigate to page ''
+Step 3: Take full page screenshot as checkpoint
+","High","NEW"
+"2","Verify that the Search box displays correct results based on available data","After entering an available value of data, the list of relevant results will be displayed to select
+""1. Navigate to https://www.ti.com 
+2. Enter """"12"""" to the Search box 
+3. Click on an option on the list of results ""","Step 1: Navigate to /
+Step 2: Click on input searchQuery
+Step 3: Enter input value in input searchQuery
+Step 4: Click on button suggestedQuery -> Navigate to page '/sitesearch/en-us/docs/universalsearch.tsp'
+Step 5: Click on link cc1200 -> Navigate to page '/product/*'
+Step 6: Click on header productTitle
+Step 7: Click on header productDescription -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+","High","NEW"
+"4","Verify that login is required before ordering items","Could not perform ordering without login
+""1. Navigate to https://www.ti.com 
+2. Enter """"12"""" to the Search box 
+3. Click on """"CC1200"""" hyperlink 
+4. Click on """"Order Now"""" button
+5. Click on """"Log in to order"""" button""","Step 1: Navigate to /
+Step 2: Click on input searchQuery
+Step 3: Enter input value in input searchQuery
+Step 4: Click on button suggestedQuery2 -> Navigate to page '/sitesearch/en-us/docs/universalsearch.tsp'
+Step 5: Click on link cc1200 -> Navigate to page '/product/*'
+Step 6: Click on link orderNow
+Step 7: Click on link logInToOrder -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+","Medium","NEW"
+"3","Verify that a warning message is displayed upon an unsuccessful login attempt","Attempt to log in with an incorrect username or password, and verify that a warning message is displayed.
+""1. Navigate to https://www.ti.com/
+2. Click on the """"Login/Register"""" hyperlink
+3. Enter """"123"""" to the field """"myIT account ID""""
+4. Click on the """"Next"""" button 
+5. Enter """"123"""" to the field """"Password""""
+5. Click on the """"Log in"""" button""","Step 1: Navigate to /as/* with params (client id, nonce, redirect uri, response mode, response type, scope, state)
+Step 2: Login
+Step 3: Click on button logIn -> Navigate to page '/as/*/resume/as/authorization.ping'
+Step 4: Click on div errorMessage
+Step 5: Click on button next -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+","Low","NEW"
+"5","Verify that the Search box handles unavailable data correctly","After entering an unavailable value of data, no displayed results
+""1. Navigate to https://www.ti.com 
+2. Enter """"a"""" to the Search box 
+3. Click on the """"loop"""" icon""","Step 1: Navigate to /
+Step 2: Click on input searchQuery
+Step 3: Enter input value in input searchQuery
+Step 4: Click on button suggestedQuery3 -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+","Low","NEW"
+"6","Verify that a warning message is displayed upon an unsuccessful login attempt","Attempt to log in with an incorrect username or password, and verify that a warning message is displayed.
+""1. Navigate to https://www.ti.com/
+2. Click on the """"Login/Register"""" hyperlink
+3. Enter """"123"""" to the field """"myIT account ID""""
+4. Click on the """"Next"""" button 
+5. Enter """"123"""" to the field """"Password""""
+5. Click on the """"Log in"""" button""","Step 1: Navigate to /as/* with params (client id, nonce, redirect uri, response mode, response type, scope, state)
+Step 2: Login
+Step 3: Click on button logIn -> Navigate to page '/as/*/resume/as/authorization.ping'
+Step 4: Click on div errorMessage
+Step 5: Click on label accountId
+Step 6: Click on label accountId
+Step 7: Click on button next -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+","Trivial","NEW"

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>4895920c-07a6-498c-bde1-3f721d8720fd</id>
+        </flow>
+    </customField>
+    <description>After entering an available value of data, the list of relevant results will be displayed to select
+    "1. Navigate to https://www.ti.com 
+    2. Enter ""12"" to the Search box 
+    3. Click on an option on the list of results "</description>
+    <name>TC2-Verify that the Search box displays correct results based on available data</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>e92c7aa9-b06f-42af-b462-d2378b2cf836</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>ecbeb2d8-4cd7-4434-854a-4de67992f099</id>
+        <masked>false</masked>
+        <name>input_searchQuery</name>
+    </variable>
+</TestCaseEntity>
