@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>4895920c-07a6-498c-bde1-3f721d8720fd</id>
@@ -12,7 +11,7 @@
     3. Click on an option on the list of results "</description>
     <name>TC2-Verify that the Search box displays correct results based on available data</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>searchbox</tag>
     <testCaseGuid>e92c7aa9-b06f-42af-b462-d2378b2cf836</testCaseGuid>
     <variable>
         <defaultValue>''</defaultValue>
