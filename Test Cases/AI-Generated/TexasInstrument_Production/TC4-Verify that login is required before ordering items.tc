@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>0aa7d06a-7225-45fe-9ba8-986bb3782b4e</id>
+        </flow>
+    </customField>
+    <description>Could not perform ordering without login
+    "1. Navigate to https://www.ti.com 
+    2. Enter ""12"" to the Search box 
+    3. Click on ""CC1200"" hyperlink 
+    4. Click on ""Order Now"" button
+    5. Click on ""Log in to order"" button"</description>
+    <name>TC4-Verify that login is required before ordering items</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>925c8056-3226-4f57-8be6-fdf9b111b2c6</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>8920df7f-5d0d-4203-a2eb-f9ae3d528ddb</id>
+        <masked>false</masked>
+        <name>input_searchQuery</name>
+    </variable>
+</TestCaseEntity>
