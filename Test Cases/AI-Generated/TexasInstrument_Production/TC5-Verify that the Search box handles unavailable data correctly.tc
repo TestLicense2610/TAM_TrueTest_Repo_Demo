@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>7b9d1984-2299-4d9e-925c-d7ed02074d77</id>
@@ -12,7 +11,7 @@
     3. Click on the ""loop"" icon"</description>
     <name>TC5-Verify that the Search box handles unavailable data correctly</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>searchbox</tag>
     <testCaseGuid>f298512f-1be1-45c6-8105-ec6b2f1bc617</testCaseGuid>
     <variable>
         <defaultValue>''</defaultValue>
