@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>e6eea917-08d5-4b7e-9310-f24d3e1eaa44</id>
@@ -15,7 +14,7 @@
     5. Click on the ""Log in"" button"</description>
     <name>TC3-Verify that a warning message is displayed upon an unsuccessful login attempt</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>Login</tag>
     <testCaseGuid>68c9f78f-90f7-4f0b-993c-1d4710450d8e</testCaseGuid>
     <variable>
         <defaultValue>'DCIT_ALL_WWW-PROD'</defaultValue>
