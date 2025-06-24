@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>7b9d1984-2299-4d9e-925c-d7ed02074d77</id>
+        </flow>
+    </customField>
+    <description>After entering an unavailable value of data, no displayed results
+    "1. Navigate to https://www.ti.com 
+    2. Enter ""a"" to the Search box 
+    3. Click on the ""loop"" icon"</description>
+    <name>TC5-Verify that the Search box handles unavailable data correctly</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>f298512f-1be1-45c6-8105-ec6b2f1bc617</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>a29c1734-e5ca-4ef9-b80d-1eee3fca38e5</id>
+        <masked>false</masked>
+        <name>input_searchQuery</name>
+    </variable>
+</TestCaseEntity>
