@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>e6eea917-08d5-4b7e-9310-f24d3e1eaa44</id>
+        </flow>
+    </customField>
+    <description>Attempt to log in with an incorrect username or password, and verify that a warning message is displayed.
+    "1. Navigate to https://www.ti.com/
+    2. Click on the ""Login/Register"" hyperlink
+    3. Enter ""123"" to the field ""myIT account ID""
+    4. Click on the ""Next"" button 
+    5. Enter ""123"" to the field ""Password""
+    5. Click on the ""Log in"" button"</description>
+    <name>TC3-Verify that a warning message is displayed upon an unsuccessful login attempt</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>68c9f78f-90f7-4f0b-993c-1d4710450d8e</testCaseGuid>
+    <variable>
+        <defaultValue>'DCIT_ALL_WWW-PROD'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>722de7cf-5294-4a30-9f93-32caa2cf1a18</id>
+        <masked>false</masked>
+        <name>as_client_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'authorization.oauth2'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>8b1143d1-3ee9-43e3-9aa4-794556cd33bb</id>
+        <masked>false</masked>
+        <name>as_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'BVGYnVG_G6H_3SWvMyCDNDHJLjLl2bnknQU1tbikBoE'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>bd2cd98a-d53b-4053-866c-13d4da449f73</id>
+        <masked>false</masked>
+        <name>as_nonce</name>
+    </variable>
+    <variable>
+        <defaultValue>'https://www.ti.com/oidc/redirect_uri/'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>899ee006-6864-452a-a3e9-9e179d852465</id>
+        <masked>false</masked>
+        <name>as_redirect_uri</name>
+    </variable>
+    <variable>
+        <defaultValue>'form_post'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>7458918f-cc30-4a4e-9365-f631daf131fd</id>
+        <masked>false</masked>
+        <name>as_response_mode</name>
+    </variable>
+    <variable>
+        <defaultValue>'code'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>86b865b1-2cf8-4a80-aa12-b38c2d6753cb</id>
+        <masked>false</masked>
+        <name>as_response_type</name>
+    </variable>
+    <variable>
+        <defaultValue>'openid email profile'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>43163033-a9b8-4a06-bd73-8202a0e482b3</id>
+        <masked>false</masked>
+        <name>as_scope</name>
+    </variable>
+    <variable>
+        <defaultValue>'U7K-wxhl90QAEbb-SHL9SPcQBsI'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>d4b10d20-ffe3-45b7-b4e2-d4cfbb990c94</id>
+        <masked>false</masked>
+        <name>as_state</name>
+    </variable>
+</TestCaseEntity>
