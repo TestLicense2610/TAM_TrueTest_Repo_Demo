@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>0aa7d06a-7225-45fe-9ba8-986bb3782b4e</id>
@@ -14,7 +13,7 @@
     5. Click on ""Log in to order"" button"</description>
     <name>TC4-Verify that login is required before ordering items</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>OrderNow</tag>
     <testCaseGuid>925c8056-3226-4f57-8be6-fdf9b111b2c6</testCaseGuid>
     <variable>
         <defaultValue>''</defaultValue>
